@@ -19,7 +19,7 @@ public class upload extends HttpServlet {
     	Part part = request.getPart("file");
         String name = this.getFileName(part);
         part.write("C:\\workspace\\sotuken-project-comp\\WebContent\\upload\\" + name);
-        String view = "/WEB-INF/view/up.jsp";
+        String view = "/WEB-INF/image/up.jsp";
 		RequestDispatcher dispatcher = request.getRequestDispatcher(view);
 		dispatcher.forward(request, response);
     }

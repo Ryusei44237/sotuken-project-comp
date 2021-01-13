@@ -2,7 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="CLI_database"/>
 	<classpathentry kind="src" path="hash-password"/>
-	<classpathentry kind="src" path="image-base64"/>
+	<classpathentry kind="src" path="image"/>
+	<classpathentry kind="src" path="GUI_beta"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
